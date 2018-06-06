@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oguzhan/projee/project5/City.cpp
+City.h
+/home/oguzhan/projee/project5/City.h
+iostream
+-
+
+/home/oguzhan/projee/project5/City.h
+utility
+-
+vector
+-
+climits
+-
+queue
+-
+
+/home/oguzhan/projee/project5/project5.cpp
+iostream
+-
+fstream
+-
+City.h
+/home/oguzhan/projee/project5/City.h
+
